@@ -49,11 +49,11 @@ const Footer = () => {
             </div>
             <div className="d-flex align-items-center mb-2">
               <FaPhone className="me-2" />
-              <span>+1 (555) 123-4567</span>
+              <span>+91 83205 52114</span>
             </div>
             <div className="d-flex align-items-center">
               <FaMapMarkerAlt className="me-2" />
-              <span>Student Center, Room 205<br />College Campus</span>
+              <span>Lovely Professional University ,Block 13<br />DSW<br />Phagwara - 144411, Punjab, India</span>
             </div>
           </Col>
         </Row>

@@ -81,12 +81,12 @@ export const AuthProvider = ({ children }) => {
     }
   };
 
-  const logout = () => {
-    localStorage.removeItem('token');
-    setToken(null);
-    setUser(null);
-    delete axios.defaults.headers.common['Authorization'];
-  };
+  // In your AuthContext
+const logout = () => {
+  setUser(null);
+  localStorage.removeItem('user');
+  // Don't navigate here - let component handle redirection
+};
 
   const updateProfile = async (profileData) => {
     try {

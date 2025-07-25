@@ -164,7 +164,7 @@ const Contact = () => {
                   <div>
                     <strong>Phone</strong>
                     <br />
-                    <a href="tel:+15551234567">+1 (555) 123-4567</a>
+                    <a href="tel:+918320552114">+91 83205 52114</a>
                   </div>
                 </div>
                 
@@ -173,9 +173,9 @@ const Contact = () => {
                   <div>
                     <strong>Location</strong>
                     <br />
-                    Student Center, Room 205<br />
-                    College Campus<br />
-                    City, State 12345
+                    Lovely Professional University ,Block 13<br />
+                    DSW<br />
+                    Phagwara - 144411, Punjab, India
                   </div>
                 </div>
                 
