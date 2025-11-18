@@ -1,8 +1,16 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const cors = require('cors');
 const dotenv = require('dotenv');
 const path = require('path');
+const cors = require("cors");
+
+app.use(cors({
+    origin: "*",
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
+}));
+
+
 
 // Import routes
 const announcementRoutes = require('./routes/announcements');
